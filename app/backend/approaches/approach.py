@@ -1,3 +1,10 @@
+"""
+This file contains the implementation of the Approach class and related data classes used for document search and retrieval.
+The Approach class is an abstract base class (ABC) that provides a framework for different search approaches.
+It includes methods for building filters, performing searches, computing text and image embeddings, and more.
+The Document data class represents a search result document and provides methods for serialization and trimming of embeddings.
+The ThoughtStep data class represents a step in a thought process and holds information such as title, description, and properties.
+"""
 import os
 from abc import ABC
 from dataclasses import dataclass
